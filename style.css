@@ -16,10 +16,22 @@ body {
 
 .navbar {
     display: flex;
-    gap: 10px;
+    padding: 25px 99px;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .navbar ul {
     display: flex;
     gap: 90px;
+}
+
+.navbar button {
+    font-weight: bold;
+    color: #F2F2F2;
+    background-color: #024059;
+    padding: 14px 39px;
+    border-radius: 35px;
+
 }
