@@ -1,4 +1,4 @@
-*{
+* {
     list-style: none;
     font-size: 16px;
     font-weight: 400;
@@ -10,15 +10,16 @@
     outline: unset;
 }
 
-body{
+body {
     color: #24292F;
 }
 
-.navbar{
+.navbar {
     display: flex;
     gap: 10px;
 }
-.navbar ul{
+
+.navbar ul {
     display: flex;
     gap: 90px;
 }
