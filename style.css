@@ -13,3 +13,12 @@
 body{
     color: #24292F;
 }
+
+.navbar{
+    display: flex;
+    gap: 10px;
+}
+.navbar ul{
+    display: flex;
+    gap: 90px;
+}
