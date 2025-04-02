@@ -15,6 +15,7 @@
 .jumbotron h1{
     font-size: 58;
     font-weight: 700;
+    font-weight: bold;
 }
 
 .jumbotron button{
