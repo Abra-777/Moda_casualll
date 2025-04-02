@@ -8,6 +8,8 @@
     text-align: center;
     justify-content: center;
     color: #F2F2F2;
+    gap: 153px;
+    perspective: 1000px;
 }
 
 .jumbotron h1{
@@ -21,4 +23,15 @@
     background-color: #024059;
     padding: 14px 39px;
     border-radius: 35px;
+    cursor: pointer;
+}
+
+.jumbotron button:hover{
+    opacity: .6;
+    background-color:lightblue;
+}
+
+.jumbotron:hover{
+    transform: rotateX(30deg);
+    transition-duration: 3s;
 }

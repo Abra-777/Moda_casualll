@@ -14,12 +14,15 @@
     display: flex;
     padding: 25px 441px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     gap: 25px;
+    flex-direction: column;
 }
 
 .footer ul{
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 8px 0px;
     gap: 38px;
 }
@@ -27,4 +30,6 @@
 .footer div{
     gap: 36px;
     padding: 0px 9px;
+    align-items: center;
+    justify-content: center;
 }
