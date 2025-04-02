@@ -9,3 +9,22 @@
     border: unset;
     outline: unset;
 }
+
+.footer {
+    display: flex;
+    padding: 25px 441px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.footer ul{
+    display: flex;
+    padding: 8px 0px;
+    gap: 38px;
+}
+
+.footer div{
+    gap: 36px;
+    padding: 0px 9px;
+}
