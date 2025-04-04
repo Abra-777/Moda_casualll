@@ -1,4 +1,5 @@
-.tarjetas div {
+/* Esta la acabo de revisar */
+.tarjetas {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +7,8 @@
     padding: 40px 46px;
 }
 
-.franelas div {
+/* Esta la acabo de revisar */
+.franelas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +17,7 @@
     border-radius: 20px;
     box-shadow: var(--drop-shadow-400);
 }
+
 
 .imagen1 {
     width: 100%;
@@ -58,6 +61,7 @@
 }
 
 .subdivisiones {
+    display: flex;
     justify-content: space-between;
 }
 
