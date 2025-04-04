@@ -1,6 +1,6 @@
 .jumbotron {
     background-image: url(/assets/pngtree-interior-of-clothing-storage-with-hats-and-shirts-picture-image_2507154.jpg);
-    height: 600px;
+    height: 692px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -13,9 +13,12 @@
 }
 
 .jumbotron h1{
-    font-size: 58;
-    font-weight: 700;
+    font-size: 58px;
     font-weight: bold;
+}
+
+.jumbotron p{
+    font-size: 20px;
 }
 
 .jumbotron button{
@@ -30,9 +33,4 @@
 .jumbotron button:hover{
     opacity: .6;
     background-color:lightblue;
-}
-
-.jumbotron:hover{
-    transform: rotateX(30deg);
-    transition-duration: 3s;
 }

@@ -1,6 +1,6 @@
 .jumbotron2 {
-    background-image: url(/assets/pngtree-interior-of-clothing-storage-with-hats-and-shirts-picture-image_2507154.jpg);
-    height: 600px;
+    background-image: url(/assets/7-estilos-de-moda-universais-1024x683.jpg);
+    height: 580px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,6 @@
 }
 
 .jumbotron2 h2{
-    font-size: 80;
-    font-weight: 900;
+    font-size: 45px;
+    font-weight: 900px;
 }

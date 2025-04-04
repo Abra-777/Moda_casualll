@@ -1,25 +1,14 @@
 .footer {
-    list-style: none;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-    margin: unset;
-    padding: unset;
-    border: unset;
-    outline: unset;
-}
-
-.footer {
     display: flex;
-    padding: 25px 441px;
     align-items: center;
+    flex-direction: column;
+    align-content: center;
     justify-content: center;
     gap: 25px;
-    flex-direction: column;
+    padding: 25px 441px;
 }
 
-.footer ul{
+.menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,11 +16,11 @@
     gap: 38px;
 }
 
-.footer div{
+.recuadro-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 36px;
     padding: 0px 9px;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    color: #24292f;
 }

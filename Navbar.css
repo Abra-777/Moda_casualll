@@ -1,9 +1,9 @@
 .navbar {
     display: flex;
     padding: 25px 99px;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .navbar ul {
@@ -17,5 +17,5 @@
     background-color: #024059;
     padding: 14px 39px;
     border-radius: 35px;
-
+    cursor: pointer;
 }
