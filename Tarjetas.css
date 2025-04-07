@@ -5,6 +5,9 @@
     justify-content: center;
     gap: 20px;
     padding: 40px 46px;
+    width: 100%;
+    flex: auto;
+    align-self: stretch;
 }
 
 /* Esta la acabo de revisar */
@@ -16,6 +19,9 @@
     padding: 10px 32px;
     border-radius: 20px;
     box-shadow: var(--drop-shadow-400);
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffff;
 }
 
 
@@ -24,6 +30,7 @@
     background-image: url(/assets/images.png);
     background-size: cover;
     background-position: 50% 50%;
+    object-fit: contain;
 }
 
 .textos {
@@ -63,6 +70,8 @@
 .subdivisiones {
     display: flex;
     justify-content: space-between;
+    gap: auto;
+    padding: 17px, 0px;
 }
 
 .colores-referentes {
@@ -93,6 +102,9 @@
     padding: 10px 32px;
     border-radius: 20px;
     box-shadow: var(--drop-shadow-400);
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffff;
 }
 
 .imagen2 {
@@ -100,6 +112,7 @@
     background-image: url(/assets/born\ x\ rise.png);
     background-size: cover;
     background-position: 50% 50%;
+    object-fit: contain;
 }
 
 .textos2 {
@@ -166,6 +179,9 @@
     padding: 10px 32px;
     border-radius: 20px;
     box-shadow: var(--drop-shadow-400);
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffff;
 }
 
 .imagen3{
@@ -173,6 +189,7 @@
     background-image: url(/assets/Baggy-Fit-jeans---Gris-lavado---H-M-CO-removebg-preview.png);
     background-size: cover;
     background-position: 50% 50%;
+    object-fit: contain;
 }
 
 .textos3{
