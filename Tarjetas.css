@@ -1,0 +1,240 @@
+/* Esta la acabo de revisar */
+.tarjetas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 34px 40px;
+    width: 100%;
+    flex: auto;
+    align-self: stretch;
+}
+
+/* Esta la acabo de revisar */
+.franelas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    padding: 10px 32px;
+    border-radius: 20px;
+    box-shadow: var(--drop-shadow-400);
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffff;
+}
+
+
+.imagen1 {
+    width: 100%;
+    background-image: url(/assets/Sin_título__1_-removebg-preview.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    object-fit: contain;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.text-wrapper {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #24292f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.camisa-de-diseño {
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #24292f;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.text-wrapper2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #24292f;
+    font-size: 16px;
+    text-align: center;
+}
+
+.subdivisiones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.colores-referentes {
+    display: flex;
+    width: 150px;
+    height: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.ellipse {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+
+
+.zapatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    padding: 10px 32px;
+    border-radius: 20px;
+    box-shadow: var(--drop-shadow-400);
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffff;
+}
+
+.imagen2 {
+    width: 100%;
+    background-image: url(/assets/born_x_rise__1_-removebg-preview.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    object-fit: contain;
+}
+
+.textos2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+
+.text-wrapper3 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #24292f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.zapatos-nike {
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #24292f;
+    font-size: 16px;
+    text-align: center;
+}
+
+.text-wrapper4 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #24292f;
+    font-size: 16px;
+    text-align: center;
+}
+
+.subdivisiones-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.colores-referentes2 {
+    display: flex;
+    width: 150px;
+    height: 20px;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.ellipse {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.pantalon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    padding: 10px 32px;
+    border-radius: 20px;
+    box-shadow: var(--drop-shadow-400);
+    height: fit-content;
+    width: fit-content;
+    background-color: #ffff;
+}
+
+.imagen3{
+    width: 100%;
+    background-image: url(/assets/Baggy-Fit-jeans---Gris-lavado---.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    object-fit: contain;
+}
+
+.textos3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+.text-wrapper5{
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #24292f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.jeans{
+    opacity: 0.7;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #24292f;
+    font-size: 16px;
+    text-align: center;
+}
+
+.text-wrapper6{
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #24292f;
+    font-size: 16px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.subdivisiones-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colores-referentes3{
+    display: flex;
+    width: 150px;
+    height: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.ellipse {
+    width: 24px;
+    height: 24px;
+}

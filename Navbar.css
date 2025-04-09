@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    padding: 25px 99px;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 90px;
+    font-weight: bold;
+}
+
+.navbar button {
+    font-weight: bold;
+    color: #F2F2F2;
+    background-color: #024059;
+    padding: 14px 39px;
+    gap: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+}
